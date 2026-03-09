@@ -1,0 +1,135 @@
+/* ── Nav: centered title ── */
+.VPNavBar .content {
+  display: none !important;
+}
+
+.VPNavBar .title {
+  flex: 1;
+  justify-content: center;
+}
+
+/* ── Nav scroll-hide ── */
+.VPNav {
+  transform: translateY(-100%);
+  transition: transform 0.3s ease;
+}
+
+/* ── Page layout: centered, no aside ── */
+.VPDoc .container {
+  max-width: 900px !important;
+  margin: 0 auto !important;
+}
+
+.VPDoc .aside {
+  display: none !important;
+}
+
+.VPDoc .content {
+  max-width: 100% !important;
+  padding: 0 !important;
+}
+
+/* ── Body text: centered ── */
+.vp-doc {
+  text-align: center;
+}
+
+.vp-doc p,
+.vp-doc ul,
+.vp-doc ol {
+  max-width: 68ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ── Page title (h1) ── */
+.vp-doc h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin-bottom: 2.5rem;
+}
+
+/* ── Section titles (h2: Preamble, Values, Principles) ── */
+.vp-doc h2 {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  color: var(--vp-c-brand-1);
+  border-top: 2px solid var(--vp-c-brand-1);
+  border-bottom: none;
+  padding-top: 0.6rem;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+/* ── Principle titles (h3: "N. Title") ── */
+.vp-doc h3 {
+  margin-top: 3rem;
+  margin-bottom: 0.4rem;
+  border-top: none;
+  line-height: 1.4;
+}
+
+.principle-number {
+  display: block;
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  color: var(--vp-c-text-3);
+  margin-bottom: 0.25rem;
+}
+
+.principle-title {
+  display: block;
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-transform: none;
+  letter-spacing: normal;
+  color: var(--vp-c-brand-1);
+}
+
+/* First paragraph after h3 = the key statement */
+.vp-doc h3 + p {
+  font-size: 0.95rem;
+  font-weight: 400;
+  color: var(--vp-c-text-1);
+  line-height: 1.9;
+  max-width: 62ch;
+  margin-top: 0.5rem;
+}
+
+/* Second paragraph after h3 = elaboration */
+.vp-doc h3 + p + p {
+  font-size: 0.9rem;
+  color: var(--vp-c-text-2);
+  line-height: 1.9;
+  margin-top: 0.4rem;
+}
+
+/* ── Lists ── */
+.vp-doc ul,
+.vp-doc ol {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.vp-doc li {
+  display: inline-block;
+  background-color: var(--vp-c-default-soft);
+  border-radius: 6px;
+  padding: 0.35rem 1rem;
+}
+
+/* ── Values block: bold statements ── */
+.vp-doc h2 + p + p strong {
+  font-size: 1.05rem;
+  line-height: 2;
+}
