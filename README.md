@@ -105,3 +105,11 @@ This manifesto is the result of collaboration.
 - Marek Kubis   - [LinkedIn](https://www.linkedin.com/in/marek-kubis-236ab211/)
 
 <small>Additional contributors will be listed here as they participate in the evolution of the manifesto.</small>
+
+<div class="cta-star">
+
+If this resonates, consider starring the repository — it helps others find the manifesto and signals that these principles matter to the community.
+
+[Star on GitHub](https://github.com/NachoColl/agilevibecodingmanifesto)
+
+</div>

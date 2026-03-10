@@ -133,3 +133,24 @@
   font-size: 1.05rem;
   line-height: 2;
 }
+
+/* ── GitHub CTA ── */
+.cta-star {
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--vp-c-divider);
+  color: var(--vp-c-text-2);
+  font-size: 0.875rem;
+}
+
+.cta-star a {
+  color: var(--vp-c-brand-1);
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 1px solid var(--vp-c-brand-1);
+}
+
+.cta-star a:hover {
+  color: var(--vp-c-brand-2);
+  border-bottom-color: var(--vp-c-brand-2);
+}
