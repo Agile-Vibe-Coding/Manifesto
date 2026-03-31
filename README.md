@@ -95,7 +95,7 @@ This manifesto is a living document.
 
 Proposed changes and discussions are maintained on GitHub:
 
-https://github.com/NachoColl/agilevibecodingmanifesto/
+https://github.com/Agile-Vibe-Coding/manifesto/
 
 ## Contributors
 
@@ -110,6 +110,6 @@ This manifesto is the result of collaboration.
 
 If this resonates, consider starring the repository — it helps others find the manifesto and signals that these principles matter to the community.
 
-[Star on GitHub](https://github.com/NachoColl/agilevibecodingmanifesto)
+[Star on GitHub](https://github.com/Agile-Vibe-Coding/manifesto)
 
 </div>
